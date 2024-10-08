@@ -5,7 +5,5 @@ import '@unocss/reset/tailwind.css'
 <template>
   <div>
     <RouterView />
-
-    {{ $t('hello') }}
   </div>
 </template>
