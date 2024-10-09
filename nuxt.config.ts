@@ -8,6 +8,13 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/i18n',
+    '@vant/nuxt',
+  ],
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
   ],
   pinia: {
     storesDirs: ['./stores/**'],
@@ -21,6 +28,7 @@ export default defineNuxtConfig({
       })
     },
   },
+  css: ['@/assets/main.css'],
   i18n: {
     strategy: 'no_prefix',
     langDir: './locales',

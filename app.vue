@@ -3,7 +3,7 @@ import '@unocss/reset/tailwind.css'
 </script>
 
 <template>
-  <div>
+  <div class="min-h-screen">
     <RouterView />
   </div>
 </template>

@@ -1,0 +1,15 @@
+#app {
+    
+}
+html, body {
+    @apply 
+      /* 移除默认边距 */
+      m-0 p-0
+  
+      /* 设置高度为 100% */
+      h-full
+  
+      /* 防止溢出 */
+      overflow-x-hidden
+      ;
+  }
