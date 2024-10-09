@@ -8,7 +8,7 @@ export default defineConfig({
   theme: {
     colors: {
       ring: 'hsl(240 5.9% 10%)',
-      primary: 'rgba(0, 193, 106, 1)',
+      primary: 'hsl(240 5.9% 10%)',
     },
   },
   presets: [
