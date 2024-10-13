@@ -1,5 +1,6 @@
 <script setup>
 const checked = ref(false)
+const show = ref(false)
 </script>
 
 <template>
@@ -15,5 +16,7 @@ const checked = ref(false)
 
       <max-checkbox v-model="checked" @change="console.log(checked)" />
     </max-form>
+
+    <div :class="checked && show === true ? 'bg-primary/50' : ''" />
   </div>
 </template>
