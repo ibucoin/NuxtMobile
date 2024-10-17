@@ -1,6 +1,5 @@
-#app {
-    
-}
+@import '@unocss/reset/tailwind.css';
+
 html, body {
     @apply 
       /* 移除默认边距 */
